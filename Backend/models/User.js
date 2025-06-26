@@ -24,4 +24,4 @@ const userSchema = new mongoose.Schema({
 });
 
 // Check if the model has already been compiled
-module.exports = mongoose.models.User || mongoose.model('User', userSchema);
+export default mongoose.model('User', userSchema);
