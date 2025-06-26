@@ -1,7 +1,7 @@
 // routes/superadmin.js
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User.js');
+const User = require('../models/user');
 const nodemailer = require('nodemailer');
 const dotenv = require("dotenv");
 dotenv.config();

@@ -40,7 +40,7 @@
 
 const express = require('express');
 const Teacher = require('../models/Teachers');
-const User = require('../models/User.js'); // Adjust the path to your User model
+const User = require('../models/user'); // Adjust the path to your User model
 const router = express.Router();
 
 // ============================

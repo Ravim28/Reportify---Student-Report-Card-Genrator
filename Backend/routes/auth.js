@@ -52,7 +52,7 @@ const express = require("express");
 const passport = require("passport");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../models/User.js");
+const User = require("../models/user");
 const nodemailer = require('nodemailer');  // Import Nodemailer
 const dotenv = require("dotenv");
 dotenv.config();
