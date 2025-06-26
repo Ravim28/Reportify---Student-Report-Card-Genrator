@@ -12,7 +12,7 @@
 // module.exports = mongoose.model('User', userSchema);
 
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
   name: String,
